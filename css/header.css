@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap');
+
+*,*:after,*:before{
+    padding: 0;
+    box-sizing: border-box;  
+}
+body {
+  padding: 0;
+  margin: 0;
+
+  color: #fff;
+  background: black;
+  font-family: 'Jost', sans-serif;
+}
+a { 
+  color: #fff;
+  text-decoration: none;  
+}
+li {
+    /* list-style-type: none; */
+}
+.btn-full{
+  color: #fff;
+  width: 100%;
+}
+.conteiner{
+  width: 1200px; 
+  margin: 0 auto;
+}
+.block-title{
+  font-size: 24px;
+  font-weight: 900;
+  margin: 30px 0;
+
+  text-transform: uppercase;
+}
+.btn{
+  min-width: 200px;
+  height: 50px;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+ 
+  border: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color .2s ease;
+}
+.btn-main{
+  background-color: #C7A17A;
+}
+.btn-main:hover{
+  background-color: #977a5c;
+}
+.btn-secondary{
+  border: 1px solid #666681;
+}
+.btn-secondary:hover{
+  background-color: #666681;
+}
+/* ==== HEADER ==== */
+.header{
+  border-bottom: 1px solid #32323D;
+    
+}
+.header-line{
+  border-bottom: 1px solid #32323D;
+}
+.header-line--wrapper{
+  height: 30px;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-lng a{
+  font-size: 14px;
+  font-weight: 600;
+
+  margin-right: 5px;
+  
+  text-transform: uppercase;
+}
+.header-lng a.active{
+  color: #C7A17A;
+}
+.header-phone{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.header-wrapper{
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-link{
+  font-size: 15px;
+  font-weight: 600;
+
+  padding-right: 35px;
+
+  color: white;
+  text-transform: uppercase;
+  transition: color .2s ease;
+}
+.nav-link:hover{
+  color: #C7A17A;
+}
+.nav-link.active{
+  color: #C7A17A;
+}
+.logo img{
+  height: 65px;
+  display: block;
+}
+.header-block{
+  width: 45%;
+}
+.header-block.right{
+  display: flex;
+  justify-content: end;
+}
+.header-action{
+  display: flex;
+  align-items: center;
+}
+.header-link{
+  margin-right: 30px;
+
+  position: relative;
+  align-items: center;
+}
+.header-link:last-child{
+  margin-right: 0;
+}
+.header-link--event{
+  top: -3px;
+  right: -3px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+
+  position: absolute;
+  display: block;
+  background-color: #C7A17A;
+}
+
+
+  
+  
+  

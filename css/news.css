@@ -1,0 +1,38 @@
+/* ==== NEWS ==== */
+.news-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 0 -10px 80px; 
+}
+.news-block{
+    width: 33.33%;
+    padding: 0 -10px;
+}
+.news-item{
+    width: 386px;
+    border-radius: 10px;
+    display: block;
+    background-color: #14141D;
+    transform: background-color .2s ease;
+}
+.news-item:hover{
+    background-color: #22222F;
+}
+.news-content{
+    display: block;
+
+    padding: 20px;
+}
+.news-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.4;
+    margin: 0 0 10px;
+
+    text-transform: uppercase;
+}
+.news-text{
+    margin: 0;
+    color: #DFDFDF;
+}

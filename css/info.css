@@ -1,0 +1,30 @@
+/* ==== INFO ==== */
+.info{
+}
+.info-block{
+    margin-bottom: 60px;
+    border-radius: 10px;
+
+    display: flex;
+
+    background-color: #14141D;
+    overflow: hidden;
+}
+.info-item{
+    padding: 30px;
+}
+.info-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 15px;
+
+    text-transform: uppercase;
+}
+.info-text{
+    min-width: 500px;
+    font-size: 18px;
+    line-height: 1.45;
+    
+    color: #dfdfdf;
+}
